@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My first suite!" verbose="1">
+    <test name="example test">
+        <classes>
+            <class name="com.globant.Session"></class>
+            <class name="com.globant.Profile"></class>
+            <class name="com.globant.Friend"></class>
+        </classes>
+    </test>
+
+</suite>
